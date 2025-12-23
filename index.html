@@ -181,11 +181,10 @@
             <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <i class="fas fa-magic text-indigo-600 text-xl"></i>
             </div>
-            <h3 class="font-header text-xl text-slate-800 mb-2">New Prophecy?</h3>
-            <p class="text-slate-600 text-sm mb-6">Do you want to keep the current apprentice names?</p>
+            <h3 class="font-header text-xl text-slate-800 mb-2">Res</h3>
             <div class="flex flex-col gap-2">
-                <button onclick="confirmReset(true)" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded transition-colors text-sm">Keep Names & Reset Scores</button>
-                <button onclick="confirmReset(false)" class="w-full bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 font-bold py-2 px-4 rounded transition-colors text-sm">Full Reset</button>
+                <button onclick="confirmReset(true)" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded transition-colors text-sm">Score Reset</button>
+                <button onclick="confirmReset(false)" class="w-full bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 font-bold py-2 px-4 rounded transition-colors text-sm">Score & Names Reset</button>
                 <button onclick="closeResetModal()" class="mt-2 text-slate-400 hover:text-slate-600 text-xs font-bold uppercase tracking-widest">Cancel</button>
             </div>
         </div>
@@ -327,7 +326,7 @@
                     <td class="p-1 text-center border-r border-indigo-100 bg-indigo-50/50">
                         <div class="flex flex-col items-center justify-center">
                             <span class="font-header text-indigo-900 text-lg leading-none">${r}</span>
-                            <span class="text-[9px] text-indigo-400 uppercase leading-tight">${r} Cards</span>
+                            <span class="text-[9px] text-indigo-400 uppercase leading-tight">Cards</span>
                         </div>
                     </td>
                 `;
