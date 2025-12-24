@@ -2,9 +2,7 @@
 
 A smart, automated, and responsive digital score sheet for the popular **Wizard Card Game** (by Ken Fisher / Amigo Spiele). 
 
-> **Live Demo:** [Insert Link to GitHub Pages here]
-
-![Wizard Scorepad Preview](https://via.placeholder.com/800x400?text=Wizard+Smart+Scorepad+Preview)
+https://code-lifter.github.io/Wizard-Score-pad/
 
 ## 🎯 Why use this Scorepad?
 
